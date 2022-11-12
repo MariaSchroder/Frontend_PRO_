@@ -1,0 +1,42 @@
+.emal_el{
+    display: block;
+}
+
+.cards_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.workers_form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.workers_form input,
+.workers_form button {
+    padding: 10px;
+    margin: 10px;
+}
+
+.workers_form button {
+    background-color: rgb(35, 154, 35);
+    color: white;
+    border: 1px solid  rgb(35, 154, 35);
+    border-radius: 15px;
+}
+
+
+.card {
+border: 1px solid gray;
+border-radius: 15px;
+background-color: bisque;
+padding: 10px;
+margin: 10px;
+width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

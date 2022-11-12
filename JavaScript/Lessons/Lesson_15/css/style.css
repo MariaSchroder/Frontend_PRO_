@@ -1,0 +1,55 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: bisque;
+    width: 200px;
+    padding: 10px;
+}
+
+#root {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.progress-container{
+    border: 1px solid black;
+    height: 20px;
+    position: relative;
+
+}
+
+
+.progress-line {
+    background-color: green;
+    height: 100%;
+    position: absolute;
+}
+
+.progress-value {
+    position: absolute;
+    text-align: center;
+    width: 100%; 
+} */
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .square {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 10px;
+  }

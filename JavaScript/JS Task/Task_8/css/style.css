@@ -1,0 +1,24 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    padding: 40px 20px;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.active {
+    background-color: #7ed6df;
+    color: #0a3d62;
+    border: 3px solid rgb(90, 88, 88);
+    border-radius: 20px;
+} */

@@ -1,0 +1,29 @@
+/* #tasks_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.task_card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.triggers button {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 30px;
+    padding: 10px;
+    margin: 5px;
+} */
+
+.user_card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+}

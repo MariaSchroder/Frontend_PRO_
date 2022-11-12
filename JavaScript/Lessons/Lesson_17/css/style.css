@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.form input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.form button {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(176, 101, 173);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(188, 161, 214);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;    
+    object-fit: cover;      /*  обрезает картинку */
+/* 
+    background-size: cover;     
+    background-position: center;  /* работает с backgrount - img
+    сначала обрезает а потом отцентровывает*/ 
+}
+
+
+
+
+

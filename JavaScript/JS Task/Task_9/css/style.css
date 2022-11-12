@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-container{
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    border: 2px solid gray;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-auto-rows: 200px;
+    gap: 20px;
+    justify-content: center;
+
+
+}
+
+.product-item{
+    padding: 10px;
+    border: 2px solid gray;
+
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 30px;
+
+    position: relative;
+}
+
+
+/* выводить кнопку удаления при наведении курсором на карточку */
+
+.product-item:hover .x_btn{
+    transform: translate(50%, -50%) scale(1) rotate(360deg);
+}
+
+
+.x_btn{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(113, 206, 152);
+    font-weight: 700;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    transform: translate(50%, -50%) scale(0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
