@@ -21,6 +21,7 @@
   .menu_icon {
     display: none;
     font-size: 40px;
+    cursor: pointer;
   }
   
   @media (max-width: 1100px){
@@ -28,7 +29,21 @@
       display: flex;
     }
   
+    .nav_block {
+      position: relative;
+    }
+
     .nav_menu {
-      display: none;
+      grid-template-columns: 1fr;
+      position: absolute;
+      top: 100%; /*от родительского элемента */
+      right: 0;
+      background-color: white;
+      transform: translateY(-150%);
+    }
+
+    .nav_menu.active {
+      transform: translateY(0);
+
     }
   }
