@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav_menu {
+    height: 100px;
+    background-color: #2980b9;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav_menu a {
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+}
