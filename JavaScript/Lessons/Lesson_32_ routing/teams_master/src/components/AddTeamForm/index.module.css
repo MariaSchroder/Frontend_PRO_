@@ -1,7 +1,7 @@
 .add_team_form {
     width: 80%;
     margin: 50px auto;
-    border: 3px solid rgb(46, 144, 46);
+    border: 3px solid green;
     padding: 20px;
     border-radius: 15px;
     
@@ -19,7 +19,7 @@
     padding: 7px;
 }
 .add_team_form button {
-    background-color: rgb(46, 144, 46);
+    background-color: green;
     color: white;
     border: none;
     padding: 7px;
