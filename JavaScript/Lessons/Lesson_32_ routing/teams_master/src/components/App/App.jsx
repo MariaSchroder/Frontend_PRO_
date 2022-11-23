@@ -22,14 +22,13 @@ function App() {
       team: team_value
     }])
   }
-  
-  const deleteUser = () => {
+  // удалить карточки
+  const deleteUser = (id) => setUsers(users.filter(el => el.id !== id));
     
-  }
-  
+
   return (
     
-      <Context.Provider value={{ teams, addTeam, addUser, users }}>
+      <Context.Provider value={{ teams, addTeam, addUser, users, deleteUser }}>
         
         <Nav />
         {/* переключение между страницами    */}
