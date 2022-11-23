@@ -1,10 +1,19 @@
-import React from "react";
-import s from './index.module.css'
+import React, { useContext } from "react";
+import User from "../../components/User";
+import { Context } from "../../context";
+
 
 export default function TeamsPage() {
+  
+  const { users } = useContext(Context);
+  
   return (
     <div>
-        index2
+        {
+          users.length // users[0]
+          ? users.map(el => <User key={el.id} {...el} />)
+          : 'No users'
+        }
     </div>
   );
 }
