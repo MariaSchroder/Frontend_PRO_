@@ -1,0 +1,5 @@
+.commit_item {
+    color: rgb(79, 78, 78);
+    border-bottom: 1px dashed rgb(79, 78, 78);
+    margin: 8px;
+}

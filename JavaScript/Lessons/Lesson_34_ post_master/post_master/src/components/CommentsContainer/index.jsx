@@ -1,9 +1,16 @@
 import React from "react";
+import AddCommentForm from "../AddCommentForm";
+import Comment from '../Comment'
 
-export default function CommentsContainer() {
+
+
+export default function CommentsContainer({ comments }) {
   return (
     <div>
-        index
+        {
+        comments.map(el => <Comment key={el.id} {...el} />)
+        }
+        <AddCommentForm />
     </div>
   );
 }

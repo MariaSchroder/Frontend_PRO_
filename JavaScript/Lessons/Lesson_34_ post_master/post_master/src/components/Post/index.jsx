@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
 import s from './index.module.css'
 import { Context } from "../../context";
+import CommentsContainer from "../CommentsContainer";
 
-export default function Post({ id, title, text, like}) {
+export default function Post({ id, title, text, like, comments}) {
   
 const { change_like } = useContext(Context); // достаём функцию  change_like из контекста
 
@@ -22,6 +23,9 @@ const { change_like } = useContext(Context); // достаём функцию  c
           >
           { like_text }
           </p>
+          
+          <CommentsContainer comments={comments}/>
+
         
 
 
