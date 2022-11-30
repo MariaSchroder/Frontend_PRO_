@@ -1,12 +1,35 @@
 import CardsBox from "../CardsBox/CardsBox";
 import { words } from '../../data/words'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Triggers from "../Triggers/Triggers";
 import PostForm from "../PostForm/PostForm";
 
 function App() {
 
   const [ cards, setCards ] = useState(words);
+
+
+  // программа выполнится только 1 раз при перезагрузки страницы (useEffect)
+  // программа будет обращаться к localStorage и будет вытаскивать последнее изменённое состояние
+  
+  useEffect(() => {
+    const res = JSON.parse(localStorage.getItem('cards'));
+    
+    setCards(res)
+  }, []); 
+  // [] - следить за состоянием не нужно, функция запускается 1 раз при перезагрузке страницы
+
+  
+  useEffect(() => {
+    localStorage.setItem('cards', JSON.stringify(cards))
+  }, [cards]);
+
+  // [cards] - функция выполняется каждый раз при изменении состояния cards
+
+  // [cards] - второй аргумент - указание на то, за каким состоянием надо следить
+
+  
+
 
   const change_to_eng = () => {
     setCards(cards.map(el => {
