@@ -24,7 +24,7 @@ const { change_like } = useContext(Context); // достаём функцию  c
           { like_text }
           </p>
           
-          <CommentsContainer comments={comments}/>
+          <CommentsContainer comments={comments} post_id={id}/>
 
         
 

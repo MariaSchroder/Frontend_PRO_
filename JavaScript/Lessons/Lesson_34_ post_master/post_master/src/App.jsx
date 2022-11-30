@@ -47,9 +47,34 @@ function App() {
   //   } 
   // ])
 
+
+  const add_comment = (post_id, text) => {
+    
+    // создаёт обьект комментария
+    const comment = {
+      id: Date.now(),
+      comment: text
+    }
+
+    // находит в какой пост будет добавлен этот комментарий 
+    // el.id === post_id (id елемента должен быть равен переданаму id)
+    const target_post = posts.find(el => el.id === post_id);
+
+    // обращается в массив comments и добавляет комментарий в обьект
+    target_post.comments.push(comment);
+
+    // Отслеживает изменение состояния (setPosts) -> Создает копию нашего состояния
+    setPosts([...posts]);
+  }
+
+
+
+
+
+
   return (
     <div>
-      <Context.Provider value={{ posts, change_like, add_post }}>
+      <Context.Provider value={{ posts, change_like, add_post, add_comment }}>
           
           <AddPostForm />
           <PostsContainer /> 

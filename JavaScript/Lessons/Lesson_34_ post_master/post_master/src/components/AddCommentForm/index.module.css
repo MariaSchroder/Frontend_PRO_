@@ -1,0 +1,17 @@
+.add_comment_form input {
+    border: 1px solid  rgb(92, 92, 92);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+.add_comment_form button {
+    border: 1px solid  rgb(92, 92, 92);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 5px;
+    width: 100px;
+    background-color: #e96d6d;
+    font-size: 12px;
+}
