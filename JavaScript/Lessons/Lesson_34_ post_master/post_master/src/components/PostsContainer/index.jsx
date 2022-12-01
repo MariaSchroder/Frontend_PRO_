@@ -8,10 +8,10 @@ export default function PostsContainer() {
     const { posts } = useContext(Context);
 
     return (
-    <div>
-        {
-            posts.map(el => <Post key={el.id} {...el} />)
-        }
-    </div>
+        <div>
+            {
+                posts.map(el => <Post key={el.id} {...el} />)
+            }
+        </div>
   );
 }
