@@ -1,0 +1,9 @@
+1. Написать функцию getUsers(), при вызове которой будет отправляться fetch-запрос по адресу https://dummyjson.com/users и выводится в консоль массив users
+
+2. Создать компоненты User и UsersContainer. И вывести карточки пользователей с тремя параграфами First name, Last name и Age. Используйте useContext()
+
+ДЗ:
+
+3. Создать две страницы: UsersPage и ProductsPage. Настроить роутинг между страницами
+4. Создать компонент NavMenu с двумя ссылками на страницы
+5. На странице ProductsPage вывести информацию (title и description), полученную по запросу по ссылке https://dummyjson.com/products
