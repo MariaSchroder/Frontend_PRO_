@@ -1,0 +1,20 @@
+.btn_style {
+    margin: 25px;
+}
+
+.btn_style button {
+    border: 1px solid rgb(96, 95, 95);
+    border-radius: 25px;
+    background-color: rgb(200, 200, 210);
+    padding: 13px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.btn_style button:hover {
+    background-color: gray;
+    color: white;
+}

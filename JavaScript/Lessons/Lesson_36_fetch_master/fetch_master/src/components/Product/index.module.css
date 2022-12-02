@@ -3,29 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.usersCard {
+.productsCard {
     border: 1px solid gray;
     border-radius: 20px;
-    background-color: rgb(7, 103, 122);
+    background-color: rgb(87, 91, 123);
     color: white;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
-    width: 200px;
-    padding: 20px;
+    width: 380px;
+    padding: 30px;
     margin: 20px;
+    text-align: center;
 
 }
 
-.usersCard p {
+.productsCard p {
     padding: 5px;
 }
 
-.usersCard:hover {
+.productsCard:hover {
     background-color: white;
-    color: rgb(36, 49, 52);
+    color: rgb(87, 91, 123);
     font-weight: 800;
 }
-
-
 

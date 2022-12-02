@@ -6,4 +6,4 @@
 
 3. Создать две страницы: UsersPage и ProductsPage. Настроить роутинг между страницами
 4. Создать компонент NavMenu с двумя ссылками на страницы
-5. На странице ProductsPage вывести информацию (title и description), полученную по запросу по ссылке https://dummyjson.com/products
+5. На странице ProductsPage вывести информацию (title и description), полученную по запросу по ссылке https://dummyjson.com/productsy
