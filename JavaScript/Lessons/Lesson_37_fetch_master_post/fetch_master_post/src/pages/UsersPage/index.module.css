@@ -1,0 +1,10 @@
+.btn_style button {
+    border: 1px solid rgb(53, 52, 52);
+    border-radius: 20px;
+    background-color: rgb(160, 158, 158);
+    padding: 15px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

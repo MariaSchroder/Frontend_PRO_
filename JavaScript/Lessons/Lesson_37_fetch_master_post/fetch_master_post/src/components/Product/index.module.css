@@ -10,9 +10,16 @@
     text-align: center;
     cursor: pointer;
     width: 300px;
+
 }
 
 .product_card:hover {
     background-color: rgb(253, 237, 216);
     color: rgb(10, 10, 10);
 }
+
+.product_card img {
+    object-fit: cover;
+    width: 280px;
+    border-radius: 20px;
+}   
