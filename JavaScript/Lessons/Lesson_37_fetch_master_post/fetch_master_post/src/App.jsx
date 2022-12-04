@@ -21,13 +21,14 @@ function App() {
     getUsers(setUsers)
   }, [])
   
-  
+  const createNewProduct = product => setProducts(state => [...state], product);
+  // мы взяли предъидущее состояние (setProducts) и добавили к нему то что будет передано в момент вызова функции createNewProduct
  
   
   
   return (
    <div>
-    <Context.Provider value={{ products, users }}>
+    <Context.Provider value={{ products, users, createNewProduct }}>
       
       <Routes>
         <Route path='/' element={ <MainPage /> } />
