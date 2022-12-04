@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+import AddUserForm from "../../components/AddUserForm";
 import UsersContainer from "../../components/UsersContainer";
 import s from './index.module.css'
 
@@ -10,7 +11,10 @@ export default function UsersPage() {
         <Link to='/'>
             <button>Home Page</button>
         </Link> 
-        <UsersContainer />   
+        
+        <AddUserForm />
+        <UsersContainer />  
+
       </div>
   );
 }
