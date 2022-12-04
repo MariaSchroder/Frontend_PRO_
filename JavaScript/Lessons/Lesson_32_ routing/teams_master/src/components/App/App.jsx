@@ -23,7 +23,7 @@ function App() {
   useEffect(()=> {
     localStorage.setItem('teams', JSON.stringify(teams));
     localStorage.setItem('users', JSON.stringify(users));
-  })
+  }, [teams, users])
 
   const addTeam = (team_title) => {
     setTeams([...teams, { value: team_title, label: team_title}])
