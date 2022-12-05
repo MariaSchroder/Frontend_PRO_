@@ -1,0 +1,15 @@
+.todo_card {
+    border-radius: 15px;
+    padding: 20px;
+    margin: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+}   
+
+.todo_card:hover {
+    background-color: rgb(223, 214, 214);
+}
+

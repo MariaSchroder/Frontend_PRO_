@@ -9,12 +9,16 @@ export default function MainPage() {
     <div className={s.btn_style}>
         
         <Link to='/products'>
-            <button>Products Page</button>
+            <button>Products</button>
         </Link>
 
         <Link to='/users'>
-            <button>Users Page</button>
+            <button>Users</button>
         </Link>
+
+        <Link to='/todos'>
+            <button>To do list</button>
+          </Link>
     </div>
   );
 }

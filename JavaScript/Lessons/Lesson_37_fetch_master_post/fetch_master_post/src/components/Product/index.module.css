@@ -14,12 +14,27 @@
 }
 
 .product_card:hover {
-    background-color: rgb(253, 237, 216);
+    background-color: rgb(196, 184, 167);
     color: rgb(10, 10, 10);
 }
 
 .product_card img {
     object-fit: cover;
     width: 280px;
-    border-radius: 20px;
+    border-radius: 35px;
+    padding: 13px;
 }   
+
+.slider {
+    max-width: 200px;
+}
+
+.prev_btn {
+    background-color: darkgray;
+}
+
+.slider_block {
+    display: flex;
+    justify-content: center;
+}
+

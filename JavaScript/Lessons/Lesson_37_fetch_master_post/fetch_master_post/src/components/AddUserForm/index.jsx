@@ -29,7 +29,7 @@ export default function AddUserForm() {
         <form onSubmit={submit} className={s.add_user_form}>
             <input type="text" name="name" placeholder="Name" />
             <input type="text" name="role" placeholder="Role" />
-            {/* <input type="text" name="avatar" placeholder="Avatar" /> */}
+            <input type="text" name="avatar" placeholder="Avatar" />
             <button>Add user</button>
         </form>
         );
